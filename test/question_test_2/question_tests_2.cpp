@@ -6,7 +6,9 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
+TEST_CASE("Verify Celsius to Fahrenheit Conversion")
 {
-	REQUIRE(test_config() == true);
+	REQUIRE(get_fahrenheit(37) == 98.6);
+	REQUIRE(get_fahrenheit(25) == 77);
+	REQUIRE(get_fahrenheit(0) == 32);
 }
