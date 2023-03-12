@@ -19,5 +19,5 @@ void run_menu()
     cout<<"\nTemperature Conversion Menu:\n";
     cout<<"Enter 1 to convert Celsius to Fahrenheit.\n";
     cout<<"Enter 2 to EXIT the program\n";
-    cout<<"\n Please select an option: ";
+    cout<<"\nPlease select an option: ";
 }
